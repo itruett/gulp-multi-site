@@ -1,0 +1,8 @@
+{
+	"acme-site1" : {
+		"target" : "../acme-site1/target/site"
+	},
+	"acme-site2" : {
+		"target" : "../acme-site2/target/site"
+	}
+}

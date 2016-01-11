@@ -1,0 +1,21 @@
+{
+  "name": "acme",
+  "description": "Proof-of-concept multi-site build with gulp.",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/acme.git"
+  },
+  "devDependencies": {
+    "apache-server-configs": "^2.14.0",
+    "bower": "1.4.1",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7",
+    "jshint-stylish": "^2.0.1",
+    "minimist": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
