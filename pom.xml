@@ -65,6 +65,12 @@
 							</goals>
 							<phase>generate-resources</phase>
 							<configuration>
+								<srcdir>../frontend/src</srcdir>
+								<triggerfiles>
+									<triggerfile>../frontend/gulpfile.js</triggerfile>
+									<triggerfile>../frontend/package.json</triggerfile>
+									<triggerfile>../frontend/config.json</triggerfile>
+								</triggerfiles>
 								<executable>gulp</executable>
 								<arguments>build --variant ${project.artifactId}</arguments>
 							</configuration>
